@@ -22,14 +22,13 @@ This tutorial is less focused on the portfolio site code and more on how easy it
 
 ## Getting Started
 I will assume you already have the necessary tools installed, and a GitHub account. If you do not have a GitHub account or need to install tools (npm, nodes, and git) please do so before continuing.
-1. Fork the example repository https://github.com/rarean/portfolio-demo. It will take a few seconds to make a full copy of the example “portfolio-demo”.<br/>
-  <img src="./src/img/RepoFork.png" width="200px">
-2. Go to the Settings tab and rename the repository to `USERNAME.github.io`, be sure to use **your username** in place of **USERNAME**. This username should also match your account name in GitHub.<br/>
-  <img src="./src/img/RepoName.png" width="200px"><br/>
-  For example, you can see that mine is `rarean.github.io` and my GitHub
-  username is also [rarean](https://github.com/rarean)
-3. Clone the repo to your computer so that you have a local copy of the code to update with your changes<br/>
-  <img src="./src/img/RepoClone" width="200px">
+1. Fork the example repository https://github.com/rarean/portfolio-demo. It will take a few seconds to make a full copy of the example “portfolio-demo”.
+  * <img src="./src/img/RepoFork.png" width="400px">
+2. Go to the Settings tab and rename the repository to `USERNAME.github.io`, be sure to use **your username** in place of **USERNAME**. This username should also match your account name in GitHub.
+  * <img src="./src/img/RepoName.png" width="400px">
+  * For example, you can see that mine is `rarean.github.io` and my GitHub username is also [rarean](https://github.com/rarean)
+3. Clone the repo to your computer so that you have a local copy of the code to update with your changes
+  * <img src="./src/img/RepoClone.png" width="400px">
 4. Open the [index.html](https://github.com/rarean/portfolio-demo/blob/master/index.html) file and edit the appropriate sections
   * Your Name
     ```html
@@ -94,6 +93,6 @@ The workd to deploy the site to GitHub Pages is thanks to
 If you have an existing site or code that you want to publish to GitHub pages, you only need to add this file (and directory structure) to your project.
 
 Once the gh-pages branch exists in your repository, go to the settings and ensure that the source for GitHub Pages is using this branch.<br/>
-<img src="./src/img/RepoGH-Pages.png" width="200px">
+<img src="./src/img/RepoGH-Pages.png" width="500px">
 
 Note that it may take a few minutes to populate DNS servers for it to show up in your browser; however, once available, you can click the link in green bar that GitHub says your site is available at.

@@ -1,4 +1,6 @@
-    rarean/portfolio-demo is licensed under GPL3.0
+    GPL3.0 License
+
+    Copyright (c) 2020 Aaron Perez
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -13,3 +15,4 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>
     and <https://choosealicense.com/licenses/gpl-3.0/>.
+
