@@ -1,4 +1,4 @@
-# bootstrap portfolio demo
+# Bootstrap Portfolio Demo Project
 
 A small **minimal Portfolio** with bootstrap based on [sivanesh-s.github.io](https://sivanesh-s.github.io/portfolio-minimal/)
 with [GitHub Actions](https://github.com/features/actions) for continuous build/deployment to [github pages](https://pages.github.com/).
@@ -14,4 +14,3 @@ Like the original it is based on, this is responsive.
 
 ### Small Screen
 <img src="./src/img/Sm.png" width="200px">
-
