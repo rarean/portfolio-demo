@@ -64,7 +64,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - master
+      - develop
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -83,7 +83,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
+          BRANCH: master
           FOLDER: dist
 ```
 This file tells GitHub Actions to install the project dependencies, run a build script that puts the required files in an output folder named “dist”, and then upload the contents of the “dist” folder to the gh-pages branch. If the branch does not exist, it will create the branch.
