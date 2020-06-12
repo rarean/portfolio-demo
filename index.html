@@ -14,37 +14,56 @@
   <!-- endbuild -->
   <link rel="stylesheet" href="./css/main.css" />
 
-  <title>Portfolio</title>
+  <title>Rachel Brown's Portfolio</title>
 </head>
 
 <body>
   <div id="main" class="container-fluid mt-5">
-    <div class="row">
-        <div class="col-sm-6 d-sm-block my-auto mx-auto border-lg-right imgBorder">
-          <img alt="selfy" src="https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg" class="img
-          rounded-lg d-block mx-auto my-auto" style="width: 64%; height: auto;">
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-6 d-sm-block my-5 mx-auto border-lg-right imgBorder ">
+          <img alt="headshot" src="src/img/-2209401135990709119_IMG_1012.jpg" class=" rounded-circle rounded-lg d-block mx-auto my-auto" style="width: 65%; height: auto;">
         </div>
         <div id="content" class="col-sm-6 d-sm-block my-auto mx-auto text-center">
-          <span id="name" class="d-block text-lg"> Your Name </span >
+          <span id="name" class="d-block text-lg"> Rachel Brown </span >
           <div id="carouselContent" class="carousel slide" data-ride="carousel">
             <div id="hats" class="carousel-inner text-md" role="listbox">
-              <span class="carousel-item active p-4"><p>Front-End Developer</p></span>
-              <span class="carousel-item p-4"><p>Back-End Developer</p></span>
-              <span class="carousel-item p-4"><p>Full-Stack Developer</p></span>
+              <span class="carousel-item active p-4"><p>Author</p></span>
+              <span class="carousel-item p-4"><p>Speaker</p></span>
+              <span class="carousel-item p-4"><p>Web Developer</p></span>
             </div>
           </div>
           <span id="links" class="text-md">
-            <a href="https://github.com/"><i class="fa fa-github mx-2"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square mx-2"></i></a>
-            <a href="mailto:your.mail@me.com?Subject=Hello%20again"><i class="fa fa-envelope-square mx-2"></i></a>
+            <a href="https://www.instagram.com/rachelchardea"><i class="fa fa-instagram mx-2"></i></a>
+            <a href="https://github.com/rachelcbrown13"><i class="fa fa-github mx-2"></i></a>
+            <a href="https://www.linkedin.com/in/rachel-brown-60409a135/"><i class="fa fa-linkedin-square mx-2"></i></a>
+            <a href="https://www.fb.me/thisismefromatoz"><i class="fa fa-facebook mx-2"></i></a>
+            <a href="mailto:rachelcbrown13@gmail.com"><i class="fa fa-envelope-square mx-2"></i></a>
           </span>
         </div>
-         <div id="contact" class="col d-sm-block mx-auto my-auto text-center">
-            <a href="https://github.com/" class="badge badge-light mt-5">Projects</a>
-            <a href="mailto:your.mail@me.com?Subject=Hello%20again" class="badge badge-light">
-              your.mail@me.com
-            </a> 
-         </div> 
+
+        <div id="contact" class="col d-sm-block mx-auto my-auto text-center">
+          <a class="badge mt-5" data-target="#projectModal" data-toggle="modal" type="button">Current Projects</a>
+          <div class="modal fade hide" id="projectModal" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                  <h3 class="modal-title">My Current Work</h3>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col">
+                    <a href="https://github.com/rachelcbrown13/thisismefromatoz" id=project1><img src="src/img/FrontCover.png" class="img" width="45%"><br>This is ME from A to Z</a>
+                    </div>
+                    <div class="col">
+                      <a href="https://github.com/rachelcbrown13/apollosproject"><img src="src/img/IMG_2308.jpg" class="img" width="45%"><br>All About Apollos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div> 
     </div>
   </div>
 

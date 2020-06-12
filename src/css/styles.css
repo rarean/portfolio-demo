@@ -1,19 +1,32 @@
 #main {
   font-size: 1.2em;
+  background-color: rgba(161, 226, 210, 0.5); 
+  font-family: "Tw Cen MT", 'Verdana', sans-serif;
 }
 .text-lg {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .text-md {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .imgBorder {
-  border-right: 2px solid lightgray;
+  border-right: 3px solid rgb(194, 188, 188);
 }
 
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
   display: block;
+}
+
+.badge{
+  background-color: rgb(194, 188, 188);
+  width: 25%;
+  color: rgb(0, 110, 255);
+  font-size: 30px;
+}
+
+.img{
+  color:black;
 }
